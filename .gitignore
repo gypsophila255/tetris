@@ -1,0 +1,35 @@
+# 编译生成的可执行文件
+*.out
+*.o
+*.a
+*.so
+*.exe
+
+# 临时文件
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+*.dSYM/
+*.cache
+
+# 编译器生成的中间文件
+*.obj
+*.dll
+*.pdb
+*.lib
+
+# IDE 相关文件
+.vscode/
+.idea/
+*.code-workspace
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Makefile 生成的目标文件
+build/
+dist/
